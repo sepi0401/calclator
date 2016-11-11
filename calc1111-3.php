@@ -6,6 +6,7 @@ if($_POST['left'] != "" && $_POST['right'] != "" ){
   
 	if(ctype_digit($left)&&ctype_digit($right)){
 	
+	//echo aaa;
 		  
 			switch($_POST['symbol']){
 			  case "":
