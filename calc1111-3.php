@@ -4,9 +4,8 @@ if($_POST['left'] != "" && $_POST['right'] != "" ){
   $left = mb_convert_kana(htmlspecialchars($_POST['left'], ENT_QUOTES, 'UTF-8'),"rn");
   $right = mb_convert_kana(htmlspecialchars($_POST['right'], ENT_QUOTES, 'UTF-8'),"rn");
   
-	if(ctype_digit($left)&&ctype_digit($right)){
+	if(is_numeric($left)&&is_numeric($right)){
 	
-	//echo aaa;
 		  
 			switch($_POST['symbol']){
 			  case "":
