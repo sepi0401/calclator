@@ -7,6 +7,7 @@
     </head>
     <body>
       <form="calc1111-3.php" method="post">
+      <p class="sample">
         <input type= "text" name="left" size=3>
       
         <select name="symbol" size=1>
@@ -26,6 +27,6 @@
       <p>計算結果：
       <?php
       echo ($left.'    '.$_POST['symbol'].'    '.$right.'    '.'='.'    '.$answer); ?></p>
-      
+      </p>
     </body>
 </html>
