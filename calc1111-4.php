@@ -46,7 +46,6 @@ if($_POST['left'] != "" && $_POST['right'] != "" ){
 			echo ($left.'    '.$_POST['symbol'].'    '.$right.'    '.'='.'    '.$answer);
 			
 		}else{
-		var_dump($answer);
 	  $answer='error';
 	  echo '<p>エラー2</p>';
 	  echo '数字を入力してください';
